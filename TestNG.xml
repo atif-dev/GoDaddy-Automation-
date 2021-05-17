@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="GoDaddy">
+
+	<listeners>
+		<listener class-name="com.godaddy.utilities.Reporting" />
+	</listeners>  
+
+
+	<test name="HostingWebSite Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		
+			  		
+			          <class name = "com.godaddy.testCases.TC_Godaddy_001" /> 
+			         
+			         <class name = "com.godaddy.testCases.TC_GodaddyValidateTest_002" />
+			  		
+			 		  
+		</classes>
+
+	</test>
+
+</suite>

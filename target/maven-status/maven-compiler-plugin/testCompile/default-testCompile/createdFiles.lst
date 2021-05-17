@@ -1,0 +1,7 @@
+com\godaddy\utilities\Reporting.class
+com\godaddy\testCases\BaseClass.class
+com\godaddy\testCases\TC_GodaddyValidateTest_002.class
+com\godaddy\testCases\TC_Godaddy_001.class
+com\godaddy\pageObjects\Godaddy.class
+com\godaddy\pageObjects\GodaddyValidate.class
+com\godaddy\utilities\ReadConfig.class
